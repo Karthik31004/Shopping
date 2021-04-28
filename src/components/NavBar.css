@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    background-color: #eeeeee;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items , .nav-item  {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 10px;
+    transition: 0.5s all linear;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item > * {
+    margin: 0 5px;
+}
+
+.nav-item:hover {
+    background-color: #c5c4c4;
+    cursor: pointer;
+}
+.nav-logo {
+    padding: 0 20px;
+}
+
+.high {
+    background-color: #c5c4c4;
+}
